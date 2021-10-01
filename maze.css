@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    position: relative;
+}
+
+main, .link{
+    position: absolute;
+}
+
+.link {
+    background-image: url("file:///home/becode/Downloads/link-removebg-preview.png");
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-position-x: center;
+    z-index: 1;
+    transition: 0.3s;
+}
+
+.ligne {
+    display: flex;
+}
+
+.tile{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border: 5px solid cornflowerblue;
+}
+
+.wall{
+    background-color: green;
+}
+
+.path {
+    background-color: burlywood;
+}
+
+.start {
+    background-color: red;
+}
+
+.treasure {
+    background-color: yellow;
+}
